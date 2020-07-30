@@ -34,4 +34,12 @@ Let’s understand the TextRank algorithm, now that we have a grasp on PageRank.
 5) The similarity matrix is then converted into a graph, with sentences as vertices and similarity scores as edges, for sentence rank calculation
 6) Finally, a certain number of top-ranked sentences form the final summary
 
+### Import Required Libraries
+
+import numpy as np
+import pandas as pd
+import nltk
+nltk.download('punkt') # one time execution
+import re
+
 
