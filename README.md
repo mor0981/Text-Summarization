@@ -36,10 +36,10 @@ Let’s understand the TextRank algorithm:
 
 ### Import Required Libraries
 
-import numpy as np /n
-import pandas as pd
-import nltk
-nltk.download('punkt') # one time execution
-import re
+> import numpy as np /n
+> import pandas as pd
+> import nltk
+> nltk.download('punkt') # one time execution
+> import re
 
 
