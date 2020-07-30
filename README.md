@@ -19,7 +19,7 @@ Our method is the Extractive method
 Extractive - This method relies on extracting sentences from the text.
 Therefore, identifying the appropriate sentences for the summary is of paramount importance in the Extractive method.
 
-Let’s understand the TextRank algorithm, now that we have a grasp on PageRank.
+Let’s understand the TextRank algorithm:
 
 1) The text is represented as a graph, with each sentence converted to a node
 2) Similarity between any two sentences is used as an equivalent to the web page transition probability
@@ -36,8 +36,7 @@ Let’s understand the TextRank algorithm, now that we have a grasp on PageRank.
 
 ### Import Required Libraries
 
-import numpy as np
-
+import numpy as np /n
 import pandas as pd
 import nltk
 nltk.download('punkt') # one time execution
